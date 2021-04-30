@@ -1,0 +1,29 @@
+.caContainer {
+	width: 250px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.caImgContainer {
+	width: 180px;
+	height: 200px;
+	overflow: hidden;
+	position: relative;
+	display:flex;
+	justify-content: center;
+}
+.caImgContainer > img {
+	max-width: 100%;
+	max-height: 200px;
+}
+.caProductName {
+	font-size: 12px;
+	padding: 10px 0;
+}
+.caProductPrice {
+	font-size: 12px;
+	font-weight: 600;
+}
+.productDet{
+	text-align: center;
+}

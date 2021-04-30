@@ -1,0 +1,20 @@
+.cartContainer{
+    display: flex;
+    max-width: 100%;
+margin-top:15px;
+    justify-content: space-between;
+}
+
+/* .cartItemDetails{
+    width: 90%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+} */
+
+.cardCart{
+    background: #ffffff;
+    width: calc(100% - 400px);
+     overflow: hidden;
+}

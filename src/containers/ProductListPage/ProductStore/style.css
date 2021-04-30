@@ -1,0 +1,16 @@
+.productWrapper{
+    display: flex !important;
+    flex-wrap: wrap !important;
+}
+
+
+
+@media (max-width: 480px){
+     .productWrapper{
+    display:flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+  } 
+
+}
